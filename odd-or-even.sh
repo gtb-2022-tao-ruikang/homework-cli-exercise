@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 echo "Please enter the number:"
 read num
-if [[ `expr $num % 2` -eq 0 ]];then 
+if [[  `expr $num % 2` -eq 0 ]];then 
 echo "even"
 else
 echo "odd"
